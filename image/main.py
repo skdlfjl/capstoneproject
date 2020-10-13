@@ -1,17 +1,15 @@
 import os
-import math
 import datetime
 import numpy as np
-import time
 import torch
 import torch.nn as nn
 from torch.optim import Adam
 from torch.optim.lr_scheduler import StepLR
 import argparse
 
-from dataloader import data_loader
-from evaluation import evaluation_metrics
-from model import Net
+from image.dataloader import data_loader
+from image.evaluation import evaluation_metrics
+from image.model import Net
 
 '''
 컨테이너 내 폴더 설명
