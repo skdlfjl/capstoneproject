@@ -7,9 +7,9 @@ from torch.optim import Adam
 from torch.optim.lr_scheduler import StepLR
 import argparse
 
-from image.dataloader import data_loader
-from image.evaluation import evaluation_metrics
-from image.model import Net
+from image_download.dataloader import data_loader
+from image_download.evaluation import evaluation_metrics
+from image_download.model import Net
 
 '''
 컨테이너 내 폴더 설명
