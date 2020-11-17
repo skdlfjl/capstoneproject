@@ -16,26 +16,16 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:jimin_timetable" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9f11e3a-b746-42a1-be41-b26fab53b158" name="Default Changelist" comment="move README.md to image directory">
-      <change afterPath="$PROJECT_DIR$/image_download/timetable_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/timetable.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/timetable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/timetable_black.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020-10-14_04_23_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020-10-14_04_23_[Default_Changelist]/timetable.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/practice/prac01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020-10-14_04_23__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/image_download/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/custom_hamming_loss.png" beforeDir="false" afterPath="$PROJECT_DIR$/image_download/custom_hamming_loss.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/dataloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_download/dataloader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_download/evaluation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_download/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_download/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/sample.png" beforeDir="false" afterPath="$PROJECT_DIR$/image_download/sample.png" afterDir="false" />
-    </list>
+    <list default="true" id="c9f11e3a-b746-42a1-be41-b26fab53b158" name="Default Changelist" comment="move README.md to image directory" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +71,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../codingstudy" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -208,6 +198,7 @@
       <workItem from="1602617013451" duration="259000" />
       <workItem from="1603705103835" duration="1651000" />
       <workItem from="1603780198926" duration="5492000" />
+      <workItem from="1603881070918" duration="224000" />
     </task>
     <task id="LOCAL-00001" summary="(proceeding) test.py is main.">
       <created>1602188247000</created>
@@ -237,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602617229665</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finished image preprocessing">
+      <created>1603881142076</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603881142076</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +246,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="jimin_timetable" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -261,17 +271,18 @@
     <MESSAGE value="result of test.py" />
     <MESSAGE value="move code and image file to image directory" />
     <MESSAGE value="move README.md to image directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="move README.md to image directory" />
+    <MESSAGE value="finished image preprocessing" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished image preprocessing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602167658106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602167658106" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602617010045">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603881294010">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602617010045" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603881294010" />
     <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1603784283228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -292,10 +303,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602177843246" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602617232317">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603881148585">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602617232317" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603881148585" />
     <state x="581" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602617263316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
