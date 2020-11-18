@@ -20,12 +20,15 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:jimin_timetable" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9f11e3a-b746-42a1-be41-b26fab53b158" name="Default Changelist" comment="move README.md to image directory" />
+    <list default="true" id="c9f11e3a-b746-42a1-be41-b26fab53b158" name="Default Changelist" comment="move README.md to image directory">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vote_database/prac.py" beforeDir="false" afterPath="$PROJECT_DIR$/vote_database/prac.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +74,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../codingstudy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -82,7 +85,7 @@
       <recent name="C:\Users\jimin\PycharmProjects\capstoneproject\image" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.prac01">
+  <component name="RunManager" selected="Python.prac">
     <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="capstoneproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,6 +122,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/open.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prac" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="capstoneproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vote_database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vote_database/prac.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prac" />
         <item itemvalue="Python.prac01" />
         <item itemvalue="Python.open" />
         <item itemvalue="Python.hello" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.open" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +224,7 @@
       <workItem from="1603705103835" duration="1651000" />
       <workItem from="1603780198926" duration="5492000" />
       <workItem from="1603881070918" duration="224000" />
+      <workItem from="1605627803686" duration="2683000" />
     </task>
     <task id="LOCAL-00001" summary="(proceeding) test.py is main.">
       <created>1602188247000</created>
@@ -235,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603881142076</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create vote_database directory">
+      <created>1605627872355</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605627872355</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +285,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="jimin_timetable" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -272,7 +305,8 @@
     <MESSAGE value="move code and image file to image directory" />
     <MESSAGE value="move README.md to image directory" />
     <MESSAGE value="finished image preprocessing" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished image preprocessing" />
+    <MESSAGE value="create vote_database directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="create vote_database directory" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602167658106">
@@ -283,30 +317,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603881294010" />
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1603784283228">
+    <state width="724" height="214" key="GridCell.Tab.0.bottom" timestamp="1605631722253">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603784283228" />
-    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1603784283227">
+    <state width="724" height="214" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605631722253" />
+    <state width="724" height="214" key="GridCell.Tab.0.center" timestamp="1605631722253">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603784283227" />
-    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1603784283227">
+    <state width="724" height="214" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605631722253" />
+    <state width="724" height="214" key="GridCell.Tab.0.left" timestamp="1605631722253">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603784283227" />
-    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1603784283228">
+    <state width="724" height="214" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605631722253" />
+    <state width="724" height="214" key="GridCell.Tab.0.right" timestamp="1605631722253">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603784283228" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1602177843246">
+    <state width="724" height="214" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605631722253" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1605627938964">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602177843246" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603881148585">
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605627938964" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605627875890">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603881148585" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605627875890" />
     <state x="581" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602617263316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -331,5 +365,6 @@
     <SUITE FILE_PATH="coverage/capstoneproject$open.coverage" NAME="open Coverage Results" MODIFIED="1602187556148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/capstoneproject$test.coverage" NAME="test Coverage Results" MODIFIED="1602217066427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/capstoneproject$prac01.coverage" NAME="prac01 Coverage Results" MODIFIED="1603784283202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
+    <SUITE FILE_PATH="coverage/capstoneproject$prac.coverage" NAME="prac Coverage Results" MODIFIED="1605630289243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vote_database" />
   </component>
 </project>
