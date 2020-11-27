@@ -1,5 +1,7 @@
 import pymysql
 
+# vote 라는 데이터베이스 생성
+
 connection = pymysql.connect(
     host = 'localhost',
     user = 'jimin',
@@ -7,12 +9,9 @@ connection = pymysql.connect(
     charset = 'utf8'
 )
 
+sql = "CREATE DATABASE vote"
+
 cursor = connection.cursor()
-
-
-sql = "CREATE DATABASE vote_kind"
-
-
 cursor.execute(sql)
 
 connection.commit()
