@@ -3,10 +3,13 @@ import pymysql
 connection = pymysql.connect(host = 'localhost',user = 'jimin',password = 'jimin980908',charset = 'utf8',db = 'vote')
 curs = connection.cursor()
 
-sql = """insert into vote_kind(kind,description)
-        values (%s,%s)"""
-curs.execute(sql,("senior representative","elect senior representative"))
-curs.execute(sql,("junior representative","elect junior representative"))
+
+# formatting 이 필요할듯,,,
+
+sql = """insert into vote_kind (id,kind,description)
+        values (3,"senior","elect senior representative")"""
+curs.execute(sql)
+# curs.execute(sql,("2,","junior","elect junior representative"))
 
 connection.commit()
 
