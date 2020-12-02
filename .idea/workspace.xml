@@ -26,13 +26,130 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9f11e3a-b746-42a1-be41-b26fab53b158" name="Default Changelist" comment="move README.md to image directory">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vote_database/prac.py" beforeDir="false" afterPath="$PROJECT_DIR$/vote_database/prac.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/androidTest/java/com/example/test/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/java/com/example/test/CreatActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/java/com/example/test/CreatActivity2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/java/com/example/test/CreatActivity3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/java/com/example/test/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/java/com/example/test/SubActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/java/com/example/test/SubActivity2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/layout/activity_creat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/layout/activity_creat2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/layout/activity_creat3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/layout/activity_sub.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/layout/activity_sub2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/layout/activity_sub_activity3_complete.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/layout/activity_sub_activity3_ongoing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/test/java/com/example/test/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/capstoneproject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../test/app/libs">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/build.gradle">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="capstoneproject" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="capstoneproject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="capstoneproject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="capstoneproject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="capstoneproject" type="f1a62948:ProjectNode" />
+                <item name="build.gradle" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="capstoneproject" type="f1a62948:ProjectNode" />
+                <item name="build.gradle" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="capstoneproject" type="f1a62948:ProjectNode" />
+                <item name="build.gradle" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,140 +190,146 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pharmaceutical" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test/app/libs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jimin\AndroidStudioProjects\capstoneproject" />
       <recent name="C:\Users\jimin\PycharmProjects\capstoneproject\image" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.prac">
-    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="capstoneproject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+  <component name="RunManager" selected="Android App.Unnamed">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="open" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="capstoneproject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/open.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="C:/Users/jimin/AndroidStudioProjects/capstoneproject [androidDependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="androidDependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="prac" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="capstoneproject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vote_database" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vote_database/prac.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="C:/Users/jimin/AndroidStudioProjects/capstoneproject [assembleAndroidTest]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assembleAndroidTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="prac01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="capstoneproject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/prac01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="C:/Users/jimin/AndroidStudioProjects/capstoneproject [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="capstoneproject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="C:/Users/jimin/AndroidStudioProjects/capstoneproject [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="C:/Users/jimin/AndroidStudioProjects/capstoneproject [sourceSets]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="sourceSets" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Android App.Unnamed" />
+      <item itemvalue="Gradle.C:/Users/jimin/AndroidStudioProjects/capstoneproject [androidDependencies]" />
+      <item itemvalue="Gradle.C:/Users/jimin/AndroidStudioProjects/capstoneproject [assemble]" />
+      <item itemvalue="Gradle.C:/Users/jimin/AndroidStudioProjects/capstoneproject [assembleAndroidTest]" />
+      <item itemvalue="Gradle.C:/Users/jimin/AndroidStudioProjects/capstoneproject [signingReport]" />
+      <item itemvalue="Gradle.C:/Users/jimin/AndroidStudioProjects/capstoneproject [sourceSets]" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.prac" />
-        <item itemvalue="Python.prac01" />
-        <item itemvalue="Python.open" />
-        <item itemvalue="Python.hello" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Gradle.C:/Users/jimin/AndroidStudioProjects/capstoneproject [assembleAndroidTest]" />
+        <item itemvalue="Gradle.C:/Users/jimin/AndroidStudioProjects/capstoneproject [assemble]" />
+        <item itemvalue="Gradle.C:/Users/jimin/AndroidStudioProjects/capstoneproject [sourceSets]" />
+        <item itemvalue="Gradle.C:/Users/jimin/AndroidStudioProjects/capstoneproject [signingReport]" />
+        <item itemvalue="Gradle.C:/Users/jimin/AndroidStudioProjects/capstoneproject [androidDependencies]" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c9f11e3a-b746-42a1-be41-b26fab53b158" name="Default Changelist" comment="" />
@@ -322,34 +445,53 @@
     <option name="LAST_COMMIT_MESSAGE" value="proceeding sql" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602167658106">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1606933426566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606933426566" />
+    <state x="484" y="0" key="#Unnamed" timestamp="1606933298478">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="484" y="0" key="#Unnamed/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606933298478" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606933134504">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606933134504" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602167658106" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606024716777">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606933165529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606933165529" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606024716777" />
     <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605665388049" />
-    <state width="723" height="326" key="GridCell.Tab.0.bottom" timestamp="1605948896484">
+    <state width="745" height="210" key="GridCell.Tab.0.bottom" timestamp="1606932904659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="745" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606932904659" />
     <state width="723" height="326" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605948896484" />
-    <state width="723" height="326" key="GridCell.Tab.0.center" timestamp="1605948896484">
+    <state width="745" height="210" key="GridCell.Tab.0.center" timestamp="1606932904659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="745" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606932904659" />
     <state width="723" height="326" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605948896484" />
-    <state width="723" height="326" key="GridCell.Tab.0.left" timestamp="1605948896484">
+    <state width="745" height="210" key="GridCell.Tab.0.left" timestamp="1606932904659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="745" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606932904659" />
     <state width="723" height="326" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605948896484" />
-    <state width="723" height="326" key="GridCell.Tab.0.right" timestamp="1605948896484">
+    <state width="745" height="210" key="GridCell.Tab.0.right" timestamp="1606932904659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="745" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606932904659" />
     <state width="723" height="326" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605948896484" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1605627938964">
+    <state x="439" y="117" key="NewModule_or_Project.wizard" timestamp="1606932817953">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="439" y="117" key="NewModule_or_Project.wizard/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606932817953" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1606929573391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606929573391" />
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605627938964" />
     <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1605665334679">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -364,6 +506,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="541" y="124" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1602616983759" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1606932937719">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606932937719" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -374,12 +520,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/capstoneproject$hello.coverage" NAME="hello Coverage Results" MODIFIED="1602167679516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/capstoneproject$open.coverage" NAME="open Coverage Results" MODIFIED="1602187556148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/capstoneproject$test.coverage" NAME="test Coverage Results" MODIFIED="1602217066427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/capstoneproject$prac01.coverage" NAME="prac01 Coverage Results" MODIFIED="1603784283202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
-    <SUITE FILE_PATH="coverage/capstoneproject$prac.coverage" NAME="prac Coverage Results" MODIFIED="1605943334551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vote_database" />
   </component>
 </project>
