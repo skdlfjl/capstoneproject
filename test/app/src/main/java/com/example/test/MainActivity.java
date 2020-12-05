@@ -9,6 +9,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class MainActivity extends AppCompatActivity {
 
 
@@ -26,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     private String str;    // 입력된 토큰을 받는 변수입니다, 변수 명을 바꿔주면 좋을듯...
     String[] token = {"1111","2222","3333","4444","5555"};   //이걸 데이터베이스에서 가져와야 합니다 (수정필요!!!!!!)
     int where;
+    private FirebaseDatabase database;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         et_token = findViewById(R.id.et_token);
-
+        database = FirebaseDatabase.getInstance();
         btn_insert = findViewById(R.id.btn_insert);
         btn_insert.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,8 +62,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, CreatActivity.class);
                 startActivity(intent);
+
             }
         });
+
 
     }
 }

@@ -8,7 +8,17 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.Exclude;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.IgnoreExtraProperties;
+
+
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+import static android.os.Build.ID;
 
 public class CreatActivity3 extends AppCompatActivity {
 
@@ -42,6 +52,7 @@ public class CreatActivity3 extends AppCompatActivity {
         }
 
 
+
         //이건 버튼 눌렀을 때 맨 처음화면으로 돌아가는거
         btn_revert = findViewById(R.id.btn_revert);
         btn_revert.setOnClickListener(new View.OnClickListener() {
@@ -49,7 +60,10 @@ public class CreatActivity3 extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
             }
+
         });
 
     }
 }
+
+

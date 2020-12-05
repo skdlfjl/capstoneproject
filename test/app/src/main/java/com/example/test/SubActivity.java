@@ -1,5 +1,5 @@
 package com.example.test;
-//이 페이지는 토큰을 입력했을 때, 토큰에 따른 투표시트템이 등장해야합니다
+//이 페이지는 토큰을 입력했을 때, 토큰에 따른 투표시스템이 등장해야합니다
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
