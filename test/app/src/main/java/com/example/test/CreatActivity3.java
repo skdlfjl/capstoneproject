@@ -27,8 +27,7 @@ public class CreatActivity3 extends AppCompatActivity {
     private TextView tv_list1;
     private TextView tv_list2;
     private int list1_size;
-    private int list2_size;`
-
+    private int list2_size;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
