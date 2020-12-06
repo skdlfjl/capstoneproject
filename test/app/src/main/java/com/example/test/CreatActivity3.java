@@ -23,11 +23,11 @@ import static android.os.Build.ID;
 public class CreatActivity3 extends AppCompatActivity {
 
     private Button btn_revert;
-
+    private FirebaseDatabase database;
     private TextView tv_list1;
     private TextView tv_list2;
     private int list1_size;
-    private int list2_size;
+    private int list2_size;`
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +44,7 @@ public class CreatActivity3 extends AppCompatActivity {
         list1_size = list1.size();
         for(int i=0; i<list1_size; i++){
             tv_list1.setText((String) list1.get(i));
+
         }
 
         list2_size = list2.size();
@@ -59,8 +60,24 @@ public class CreatActivity3 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
-            }
+                for (int i = 0 ; i < list1.size() ; i++) {
+                    String element = ((String) list1.get(i));
+                    writeNewVoter(element,"0");
+                }
 
+            }
+            private void writeNewVoter(String student_id, String vote_result) {
+                Voter voter = new Voter();
+                voter.student_id = student_id.toString();
+                //              voter.token = token.toString() ;  나중에 토큰 디비 만들면 추가하는걸로 일단 지금은 보류
+                voter.vote_result = vote_result.toString();
+
+
+//                database.getReference().child("voters").push().setValue(voter)
+                database.getReference().child("voters").push().setValue(voter);
+
+
+            }
         });
 
     }

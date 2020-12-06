@@ -1,6 +1,7 @@
 package com.example.test;
 //이 페이지는 맨 첫 페이지에서 + 버튼을 눌렀을 때 투표를 생성하는 페이지 입니다.
 //우선 선거 명부를 작성해야합니다 - 파일로 입력받을 수 있으면 좋겠습니다.
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -42,10 +43,11 @@ public class CreatActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_creat);
+        database = FirebaseDatabase.getInstance();
 
         et_studentID = (EditText) findViewById(R.id.et_studentID);
         tv_display = (TextView) findViewById(R.id.tv_display);
-        database = FirebaseDatabase.getInstance();
+
         displayContacts();
 
         btn_next = (Button) findViewById(R.id.btn_next);
@@ -59,41 +61,12 @@ public class CreatActivity extends AppCompatActivity {
                     intent.putExtra("list1", list1);
                     startActivity(intent);
 
-                    String getStudentId = et_studentID.getText().toString();
-
-                    for (Object object : list1) {
-                        String element = (String) object;
-                    }
-
 
                 } else {
                     Toast.makeText(getApplicationContext(), "후보 이름이 작성되지 않았습니다.", Toast.LENGTH_SHORT).show();
                 }
             }
-            private void writeNewVoter(String token, String student_id, String vote_result) {
-                voter voter = new voter();
-                voter.student_id = student_id.toString();
-                voter.token = token.toString() ;
-                voter.vote_result = vote_result.toString();
 
-                database.getReference().child("voters").push().setValue(voter)
-                        .addOnSuccessListener(new OnSuccessListener<Void>() {
-                            @Override
-                            public void onSuccess(Void aVoid) {
-                                // Write was successful!
-                                Toast.makeText(CreatActivity.this, "저장을 완료했습니다.", Toast.LENGTH_SHORT).show();
-                            }
-                        })
-
-                        .addOnFailureListener(new OnFailureListener() {
-                            @Override
-                            public void onFailure(@NonNull Exception e) {
-                                // Write failed
-                                Toast.makeText(CreatActivity.this, "저장을 실패했습니다.", Toast.LENGTH_SHORT).show();
-                            }
-                        });
-
-            }
         });
 
     }
@@ -164,10 +137,12 @@ public class CreatActivity extends AppCompatActivity {
             while (dis.available() > 0) {
                 String studentID = dis.readUTF();
 
-                str += studentID + "\n";
+                str += studentID + "\n " ;
+
+                tv_display.setText(str);
+                list1.add(str);
             }
-            tv_display.setText(str);
-            list1.add(str);
+
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
