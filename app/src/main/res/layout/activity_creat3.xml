@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:fillViewport="true"
+        android:padding="30dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="후보 입력이 완료되었습니다. 버튼을 누르면 \n투표가 개설되고 처음 회면으로 되돌아갑니다.\n"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[ token : 여기에 생성된  토큰이 입력되어야 함 ] \n"
+            android:textSize="18dp"/>
+
+
+        <Button
+            android:id="@+id/btn_revert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="revert" />
+
+        <TextView
+            android:id="@+id/tv_list1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="선거인 명부가 나와야 합니다"
+            android:background="@android:color/holo_blue_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tv_list2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="후보이름과 공약이 나와야 합니다"
+            android:background="@android:color/holo_blue_light"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
